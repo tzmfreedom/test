@@ -3,6 +3,7 @@
 This is [Chatter](http://www.salesforce.com/jp/chatter/overview/) adapter for hubot.
 
 ## Installation and Setup
+
 1. Add hubot-chatter to dependencies in your hubot's package.json.
 ```
 "dependencies": {
