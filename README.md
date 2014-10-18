@@ -11,7 +11,6 @@ This is [Chatter](http://www.salesforce.com/jp/chatter/overview/) adapter for hu
     "hubot": "~2.8.2"
 }
 ```
-
 1. Install hubot-chatter
 ```bash
 npm install
