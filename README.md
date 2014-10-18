@@ -4,26 +4,28 @@ This is [Chatter](http://www.salesforce.com/jp/chatter/overview/) adapter for hu
 
 ## Installation and Setup
 
-1. Add hubot-chatter to dependencies in your hubot's package.json.
+1.　Add hubot-chatter to dependencies in your hubot's package.json.  
+
 ```
 "dependencies": {
-    "hubot-chatter": "0.0.1",
-    "hubot": "~2.8.2"
+        "hubot-chatter": "0.0.1",
+        "hubot": "~2.8.2"
 }
 ```
-1. Install hubot-chatter
-```bash
+
+2.　Install hubot-chatter  
+ ```bash
 npm install
 ```
 
-1. Set environment variables.
-``` bash
+3.　Set environment variables.  
+ ``` bash
 export HUBOT_SFDC_USERNAME="input hubot user's username"
 export HUBOT_SFDC_PASSWORD="input hubot user's password"
 ```
 
-1. Run hubot with chatter adapter.
-```bash
+4.　Run hubot with chatter adapter.  
+ ```bash
 bin/hubot -a chatter
 ```
 
